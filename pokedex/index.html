@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="search">
+            <input type="text" name="search" id="search">
+            <button onclick="fetchData()">Go</i></button>
+        </div>
+        <div class="info">
+            <span class="info-img">
+                <div class="sprite">
+                <img id="info-img" src="" alt=" ">
+                </div>
+                <p id="num"></p>
+            </span>
+            <h3 id="name"></h3>
+            <div class="info-icons">
+            <span class="gender-icons">
+                <img id="male" src="male_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="" >
+                <img id="female" src="female_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+            </span>
+            <img id="pokeball" src="Pokeball--Streamline-Tabler.svg" alt=" ">
+            </div>
+        </div>
+    </div>
+    <div class="hero-img">
+        <img id="hero-img" src="" alt=" " >
+    </div>
+    <div class="hero">
+        <table class ="table" >
+            <tr>
+                <th colspan="2">Pokedex</th>
+            </tr>
+            <tr>
+                <th>Type</th>
+                <td><ul id="type"></ul></td>
+            </tr>
+            <tr>
+                <th>Height</th>
+                <td><p id="height"></p></td>
+            </tr>
+            <tr>
+                <th>Weight</th>
+                <td><p id="weight"></p></td>
+            </tr>
+            <tr>
+                <th>Ability</th>
+                <td> <ul id="abilities-list"></ul></td>
+            </tr>
+        </table>
+    </div>
+    <script src="indexx.js"></script>
+</body>
+</html>
